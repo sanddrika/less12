@@ -1,31 +1,94 @@
-.container{
-    max-width: 1159px;
-    width: 100%;
-    margin: 0 auto;
-    /* background: lightgreen; */
+.container {
+  max-width: 1159px;
+  width: 100%;
+  margin: 0 auto;
+  /* background: lightgreen; */
 }
-.text-block{
-    max-width: 411px;
-    width: 100%;
-    /* background-color: yellow; */
-    text-align: center;
-    margin: 0 auto;
+.text-block {
+  max-width: 411px;
+  width: 100%;
+  /* background-color: yellow; */
+  text-align: center;
+  margin: 0 auto;
 }
-.images{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 55px;
+.images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 55px;
 }
-.container2{
-    max-width: 1180px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+.container2 {
+  max-width: 1180px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
-.knopochka{
+.knopochka {
+  width: 170px;
+  height: 48px;
+  background: black;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+}
+.text-block2 {
+  max-width: 470px;
+  width: 80%;
+}
+.image {
+  max-width: 600px;
+  width: 100%;
+}
+.image img {
+  width: 100%;
+}
+.container3 {
+  max-width: 1180px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 73px;
+  background: green;
+}
+
+.image2 img {
+  width: 100%;
+}
+.text-block3 {
+  max-width: 470px;
+  /* height: 255px; */
+  text-align: center;
+}
+
+/* dabla 4 cali roa eg seqcia team memberebit */
+.container4 {
+  max-width: 73.75rem;
+  width: 90%;
+  background: grey;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 6.25rem;
+  align-items: center;
+}
+.text-block4 {
+  background-color: yellow;
+  margin: 0 auto;
+  text-align: center;
+}
+.person-block {
+  max-width: 73.75rem;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  background: purple;
+  margin: 3.125rem 0rem;
+}
+.team-button{
     width: 170px;
     height: 48px;
     background: black;
@@ -33,34 +96,34 @@
     border: 0;
     border-radius: 8px;
 }
-.text-block2{
-    max-width: 470px;
-    width: 80%;
-   
+.team{
+   height: 299px;
+   background: grey;
 }
-.image{
-    max-width: 600px;
+.image-wrap{
+    max-width: 15.75rem;
     width: 100%;
 }
-.image img{
+
+/* mtlianad footeri  */
+.footer{
+    max-width: 90rem;
     width: 100%;
+    height: 7.8125rem;
+    background: #74C69D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
 }
-.container3{
-    max-width: 1180px;
+
+.messenger{
+    max-width: 242px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 73px;
-    background: green;
+    color: white;
 }
-
-.image2 img{
-    width: 100%;
-}
-.text-block3{
-    max-width: 470px;
-    /* height: 255px; */
-    text-align: center;
+.copyright{
+    color:white;
 }

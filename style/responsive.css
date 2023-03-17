@@ -15,4 +15,19 @@
         flex-direction: column-reverse;
         margin-top: 60px;
     }
+    .container4{
+        flex-direction: column;
+    }
+    .person-block{
+        flex-direction: column;
+        margin: 35px 0px;
+        
+    }
+    .team{
+        /* margin: 0 auto; */
+        margin-bottom: 2.1875rem ;
+    }
+    .footer{
+flex-direction: column;
+    }
 }
