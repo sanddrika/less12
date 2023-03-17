@@ -1,0 +1,18 @@
+@media(min-width: 320px) and (max-width: 450px){
+    .box{
+        width: 55%;
+    }
+    .images{
+        justify-content: center;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .text-block2{
+        margin-top: 30px;
+    }
+    .container3{
+        flex-direction: column-reverse;
+        margin-top: 60px;
+    }
+}
